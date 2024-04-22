@@ -1,4 +1,4 @@
-# teste-tecnico-intern]
+# teste-tecnico-intern
 
 
 
