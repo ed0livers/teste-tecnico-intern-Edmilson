@@ -1,4 +1,5 @@
-const rows = 30;
+document.addEventListener('DOMContentLoaded', function() {
+    const rows = 30;
 const cols = 45;
 const board = Array.from({ length: rows }, () => Array.from({ length: cols }, () => Math.random() > 0.5 ? 1 : 0));
 const boardElement = document.getElementById('board');
@@ -41,3 +42,5 @@ function countNeighbors(x, y) {
 }
 
 setInterval(update, 100);
+
+});
